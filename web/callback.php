@@ -18,7 +18,7 @@ if($type != "text"){
 }
 
 // 送られてきたメッセージの中身からレスポンスのタイプを選択
-if ($message->{"text"} == '確認') {
+if ($text == '確認') {
     // 確認ダイアログタイプ
     $messageData = [
         'type' => 'template',
